@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #d7cdc3;
+  font-family: "Roboto";
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40 px;
+  font-weight: 700;
+  color: #A88FAC;
+  margin: 20px;
+}
+
+h2 {
+  color:#FFFCF9;
+  font-size: 20 px;
+  font-weight: 500;
+  background-color: #A88FAC;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px
+}
+
+p {
+  font-size: 60 px;
+  font-weight: 500;
+  color:#A88FAC;
+}
+
+ul {
+  font-size: 50 px;
+  font-weight: 500;
+  color: #FFFCF9;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#E7D7C2;
+  margin: 40px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: -3px 6px 28px 20px rgba(198,169,203,0.92);
+}
+
+#profile-pic {
+  width: 300px;
+  margin: 50px;
+  border-radius: 100px;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  #profile-pic {
+    width: 200px;
+    border-radius: 15%;
+  }
+  h1 {
+    font-size: 10 px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  } */
+}
